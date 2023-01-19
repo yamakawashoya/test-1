@@ -1,0 +1,138 @@
+body {
+  width: 1300px;
+}
+
+.header {
+  height:  70px;
+  width: 100%;
+}
+
+.header__logo {
+  padding: 10px;
+  margin-left: 70%;
+  font-size: 40px;
+}
+
+.main {
+  width: 100%;
+}
+
+.main__ttl {
+  position: relative;
+  top: -420px;
+  margin-left: 25%;
+}
+
+.main__ttl__text {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.color {
+  color: rgb(16, 237, 163);
+  font-size: 35px;
+}
+
+.size {
+  font-size: 35px;
+}
+
+.main__content {
+  position: relative;
+  top: -380px;
+  margin-left: 25%;
+}
+
+.now{
+  width: 80px;
+  height: 55px;
+  padding: 10px 0;
+  color: #fff;
+  border-radius: 100%;
+  background-color: rgb(201, 36, 143);
+  text-align: center;
+}
+
+.price {
+  position: relative;
+  top: -60px;
+  margin-left: 90px;
+  color: rgb(5, 242, 163);
+}
+
+.month__price {
+  position: relative;
+  top: -50px;
+  margin-left: 90px;
+  font-size: 20px;
+  color: deeppink;
+}
+
+.pay {
+  font-size: 30px;
+}
+
+.content__btn {
+  margin-top: 0px;
+  width: 350px;
+  height: 35px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 30px;
+  background-color: deeppink;
+  text-align: center;
+  box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
+  display: block;
+}
+
+.qestion {
+  position: absolute;
+  top: 240px;
+}
+
+.qestion__btn {
+  position: relative;
+  background-color: #55bbbb;
+  width: 856px;
+  height: 40px;
+  display: block;
+  padding: 18px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.qestion__size {
+  font-size: 30px;
+}
+
+.check {
+  display: flex;
+  margin-left: 40%;
+  margin-top: -190px;
+}
+
+.check__list {
+  height: 180px;
+  width: 330px;
+  position: relative;
+  top: 60px;
+  margin-left: 20px;
+  display: block;
+  border: 1px #55bbbb solid;
+  border-radius: 20px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.list {
+  padding: 10px 8px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px #55bbbb solid;
+}
