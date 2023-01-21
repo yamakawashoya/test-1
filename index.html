@@ -6,43 +6,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Noto+Serif+JP:wght@500&family=Shippori+Mincho&display=swap"
+    rel="stylesheet">
+  <title>静的webデザイン テスト</title>
 </head>
 <body>
-  <div class="header">
-    <h1 class="header__logo">COACH COSME</h1>
-  </div>
-  <div class="main">
-    <div class="main__img">
-      <img src="img/fv.png" alt="" height="480px" width="1250px">
-      <div class="main__ttl">
-        <h1 class="main__ttl__text">毎日<span class="color">１分</span>のケアで</h1>
-        <h1 class="main__ttl__text"><span class="color">「憧れの透明感」</span>を<span class="size">作れる？</span></h1>
-      </div>
-      <div class="main__content">
-        <div class="main__content__text">
-          <h2 class="now">今だけ</h2>
-          <p class="price">新規入会特別価格</p>
-          <p class="month__price">月額<span class="pay">1,000</span>円</p>
-          <p class="content__btn">30日間無料キャンペーンに参加</p>
+  <div class="container">
+    <div class="header">
+      <h1 class="header__logo">COACH COSME</h1>
+    </div>
+    <div class="firstview">
+      <div class="firstview__inner">
+        <h2 class="firstview__catchcopy">毎日<span class="copy-emphasis change-clr">1分</span>のケアで<br><span class="copy-emphasis change-clr mgl-40">「憧れの透明感」</span>を<span class="copy-emphasis">作れる？</span></h2>
+        <div class="firstview__price">
+          <div class="firstview__price-circle">今だけ</div>
+          <div class="firstview__price-content">
+            <p class="firstview__price-content-ttl">新規入会価格</p>
+            <p class="firstview__price-content-txt">月額<span class="firstview__price-content-txt--big">1,100</span>円</p>
+          </div>
         </div>
-        <div class="qestion">
-          <p class="qestion__btn">こんな<span class="qestion__size">悩み</span>抱えていませんか？？</p>
-        </div>
+        <a href="" class="firstview__cta">30日間無料キャンペーンに参加!</a>
       </div>
-      <div class="check">
-        <div class="check__img">
+    </div>
+    <div class="trouble">
+      <h2 class="trouble__ttl">
+        こんな<span class="trouble__ttl-emphasis">悩み</span>抱えていませんか??
+      </h2>
+      <div class="trouble-content">
+        <div class="trouble-content__img">
           <img src="img/trouble-img.png" alt="">
         </div>
-        <div class="check__list">
-          <ul>
-            <li class="list">ケアしてもニキビが治らない</li>
-            <li class="list">シミやニキビの跡が気になる</li>
-            <li class="list">乾燥で肌が痒くなってしまう</li>
-          </ul>
-        </div>  
+        <ul class="trouble-content__ul">
+          <li class="trouble-content__list">ケアしてもニキビが治らない</li>
+          <li class="trouble-content__list">シミやニキビの後書きになる</li>
+          <li class="trouble-content__list">乾燥で肌が痒くなってしまう</li>
+        </ul>
+      </div>
+    </div>
+    <div class="solution">
+      <h2 class="solution__ttl"><span class="solution__ttl-logo">COACH COSME</span>なら、<br><span class="solution__ttl-emphasis">毎日1分のケア</span>であなたの<br><span class="solution__ttl-emphasis pink-clr">お悩みを解決</span>します!</h2>
+      <div class="solution-content">
+        <div class="solution-content__item">
+          <p class="solution-content__item-point">POINT1</p>
+          <h3 class="solution-content__item-ttl">美肌効果の高い<br><span class="solution-content__item-ttl-emphasis">ビタミンB群</span>を配合</h3>
+          <p class="solution-content__item-txt">肌荒れを防ぐビタミンB群を配合。肌荒れしない肌に。</p>
+        </div>
+        <div class="solution-content__item">
+          <p class="solution-content__item-point">POINT2</p>
+          <h3 class="solution-content__item-ttl">もちもち肌を作り出す<br><span class="solution-content__item-ttl-emphasis">コラーゲン</span>
+          </h3>
+          <p class="solution-content__item-txt">肌のハリと艶を高める事前由来のコラーゲンを配合。</p>
+        </div>
+        <div class="solution-content__item">
+          <p class="solution-content__item-point">POINT3</p>
+          <h3 class="solution-content__item-ttl">肌の保湿力を高める<br><span class="solution-content__item-ttl-emphasis">ヒアルロン酸</span>
+          </h3>
+          <p class="solution-content__item-txt">肌本来の透明感を高めるヒアルロン酸を多く配合。</p>
+        </div>
       </div>
     </div>
   </div>
+  <footer class="footer">
+    <small class="copyright">
+      &copy; 2021 estra, inc
+    </small>
+  </footer>
 </body>
 </html>
